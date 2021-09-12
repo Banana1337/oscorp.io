@@ -13,8 +13,8 @@
 
 theme: jekyll-agency
 
-url    : "http://oscorp.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "oscorp.io" # the subpath of your site, e.g. /blog
 
 title      : OSCORP.IO
 email      : gabrielmert3@gmail.com #this is also the email contact forms will go to
