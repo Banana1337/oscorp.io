@@ -1,10 +1,13 @@
-#after any changes to the Gemfile, execute bundle update!
-gem "jekyll-agency"
-source "https://rubygems.org"
-gemspec
+# frozen_string_literal: true
 
-# Delete the following lines if not on Windows: 
-# Performance-booster for watching directories on Windows
-gem "wdm", ">= 0.1.0" if Gem.win_platform?
+source "https://rubygems.org"
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
 
 gem "webrick", "~> 1.7"
+
+gem "jekyll", "~> 4.2"
+
+gem "jekyll-agency"
